@@ -11,7 +11,7 @@
 
   <title>
     
-       &middot; Frivillig Leksehjelp
+      Google Search &middot; Frivillig Leksehjelp
     
   </title>
 
@@ -37,12 +37,17 @@
 </head>
 
 
-  <body class="page home">
+  <body class="search">
 
     <div id="sidebar">
   <header>
     <div class="site-title">
       <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
         
         Frivillig Leksehjelp
       </a>
@@ -493,71 +498,25 @@
 
     <main class="container">
       <header>
-  <h1 class="page-title"></h1>
+  <h1 class="page-title"><label for="search-bar">Google Search</label></h1>
 </header>
 <div class="content">
-  <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<style>
-* {
-  box-sizing: border-box;
-}
-#limit {
-        max-width: 925px;
-    }
+  <form action="https://google.com/search" class="search-form">
+  <div class="search-row">
+    <input id="search-bar" type="search" name="q" />
 
-.button {
-	 background-color: #189F89;
-	 border: none;
-	 color:  #EEEEE3;
-	 padding: 20px 34px;
-	 text-align: center;
-	 text-decoration: none;
-	 display: inline-block;
-	 font-size: 20px;
-	 margin: 4px 2px;
-	 border-radius: %;
-	 cursor: pointer;
-}
+    
+    
+    
+    
+    
+    <input name="sitesearch" type="hidden"
+           value="localhost:4000/" />
 
-</style>
-
-</head>
-
-
-<body>
-
-<h1> Hvordan fungerer det?</h1>
-
-<br />
-
-<div id="limit">
-Skal du ha leksehjelp? I dag er vår løsning på en platform som brukes av over 2 milliarder: Facebook Messenger. Ved å velge faget du skal ha hjelp i får du opp en rekke profiler som er verifiserte av oss som leksehjelpere. Når du trykker på at du ønsker å komme i kontakt med dem så blir du ledet til leksehjelperens Facebook profil. Der kan du fritt frem sende en personlig melding og høre om de kan hjepe deg. Leksehjelpere er fullstendig klar over at de blir kontaktet over Messenger så ikke vær beskjeden! Bruker din utvalgte leksehjelper lengre tid på å svare kan du alltids kontakte noen andre. Her er en intromelding vi anbefaler:
-
+    <input type="submit" value="Search" />
+  </div>
+</form>
 </div>
-
-<br />
-<br />
- <i>Hei! Jeg lurer på om du har tid og ønske for å hjelpe meg i ...fag i løpet av ... dager/timer?</i> 
-<br />
-<br />
-<br />
-<br />
-
-<a href="/Fagoversikt/" class="button">Fagoversikt</a> 
-<a href="https://www.bliflink.no" class="button">BliFlink.no</a> 
-<a href="/BliFrivillig/" class="button">Bli Frivillig</a>
-<a href="/retningslinjer/" class="button">Rettningslinjer</a> 
-<a href="https://www.facebook.com/groups/bliflink.no" class="button">Facebook</a> 
-
-</body>
-
-</html>
-
-
-</div>
-
     </main>
 
     <!-- Optional footer content -->

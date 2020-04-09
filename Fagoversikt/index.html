@@ -11,7 +11,7 @@
 
   <title>
     
-       &middot; Frivillig Leksehjelp
+      Fagoversikt &middot; Frivillig Leksehjelp
     
   </title>
 
@@ -37,12 +37,17 @@
 </head>
 
 
-  <body class="page home">
+  <body class="page">
 
     <div id="sidebar">
   <header>
     <div class="site-title">
       <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
         
         Frivillig Leksehjelp
       </a>
@@ -228,7 +233,7 @@
 
   
     
-      <a class="page-link "
+      <a class="page-link  active"
           href="/Fagoversikt/">Fagoversikt</a>
     
   
@@ -493,7 +498,7 @@
 
     <main class="container">
       <header>
-  <h1 class="page-title"></h1>
+  <h1 class="page-title">Fagoversikt</h1>
 </header>
 <div class="content">
   <html>
@@ -503,53 +508,97 @@
 * {
   box-sizing: border-box;
 }
-#limit {
-        max-width: 925px;
-    }
 
-.button {
-	 background-color: #189F89;
-	 border: none;
-	 color:  #EEEEE3;
-	 padding: 20px 34px;
-	 text-align: center;
-	 text-decoration: none;
-	 display: inline-block;
-	 font-size: 20px;
-	 margin: 4px 2px;
-	 border-radius: %;
-	 cursor: pointer;
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
 }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
-
 </head>
+<body>
+
+<h2>Finn leksehjelpere i følgende emner</h2>
+
+<div class="row">
+  <div class="column">
+    <h2>Realfag</h2>
+    <p><a href="/Biologi/">Biologi</a> </p>
+	<p><a href="/Fysikk/">Fysikk</a> </p>
+    <p><a href="/Geofag/">Geofag</a> </p>
+  <p><a href="/Informasjonsteknologi/">Informasjonsteknologi</a> </p>
+  <p><a href="/Kjemi/">Kjemi</a> </p>
+	<p><a href="/Matematikk/">Matematikk</a> </p>
+  <p><a href="/Naturfag/">Naturfag</a> </p>
+  <p><a href="/Teknologi-og-forskningslære/">Teknologi og forskningslære</a> </p>
+  </div>
+    <div class="column">
+    <h2>Norsk</h2>
+    <p><a href="/Norsk/">Norsk</a></p>
+    <p><a href="/Norsk-tegnspråk/">Norsk tegnspråk</a></p>
+    <p><a href="/Nynorsk/">Nynorsk</a></p>
+  </div>
+    <div class="column">
+    <h2>Yrkesfag</h2>
+    <p><a href="/Bygg--og-anleggsteknikk/">Bygg- og anleggsteknikk</a></p>
+    <p><a href="/Elektrofag/">Elektrofag</a></p>
+    <p><a href="/Helse--og-oppvekstsfag/">Helse- og oppvekstsfag</a></p>
+    <p><a href="/Idrettsfag/">Idrettsfag</a></p>
+    <p><a href="/Informasjonsteknologi-og-medieproduksjon/">Informasjonsteknologi og medieproduksjon</a></p>
+    <p><a href="/Journalistikk/">Journalistikk</a></p>
+    <p><a href="/Service-og-reiseliv/">Salg, service og reiseliv</a></p>
+  </div>
+</div>
+
+</body>
 
 
 <body>
 
-<h1> Hvordan fungerer det?</h1>
 
-<br />
+<div class="row">
+  <div class="column">
+    <h2>Historie og Samfunn</h2>
+  <p><a href="/Entreprenørskap/">Entreprenørskap</a> </p>
+  <p><a href="/Filosofi-og-etikk/">Filosofi og etikk</a> </p>
+  <p><a href="/Geografi/">Geografi</a> </p>
+  <p><a href="/Historie/">Historie</a> </p>
+  <p><a href="/Kultur-og-kommunikasjon/">Kultur og kommunikasjon</a> </p>
+  <p><a href="/Markedsføring/">Markedsføring</a></p>
+  <p><a href="/Musikk/">Musikk</a></p>
+  <p><a href="/Politikk-og-samfunn/">Politikk, individ og samfunn</a></p>
+  <p><a href="/Psykologi/">Psykologi</a></p>
+  <p><a href="/Rettslære/">Rettslære</a></p>
+  <p><a href="/Samfunnsfag/">Samfunnsfag</a> </p>
+  <p><a href="/Samfunnsøkonomi/">Samfunnsøkonomi</a></p>
+  <p><a href="/Sosiologi/">Sosiologi</a></p>
+  <p><a href="/Økonomistyring/">Økonomistyring</a></p>    
+  </div>
+    <div class="column">
+    <h2>Språk</h2>
+    <p><a href="/Engelsk/">Engelsk</a></p>
+    <p><a href="/Fransk/">Fransk</a></p>
+    <p><a href="/Spansk/">Spansk</a></p>
+    <p><a href="/Italiensk/">Italiensk</a></p>
+    <p><a href="/Tysk/">Tysk</a></p>
 
-<div id="limit">
-Skal du ha leksehjelp? I dag er vår løsning på en platform som brukes av over 2 milliarder: Facebook Messenger. Ved å velge faget du skal ha hjelp i får du opp en rekke profiler som er verifiserte av oss som leksehjelpere. Når du trykker på at du ønsker å komme i kontakt med dem så blir du ledet til leksehjelperens Facebook profil. Der kan du fritt frem sende en personlig melding og høre om de kan hjepe deg. Leksehjelpere er fullstendig klar over at de blir kontaktet over Messenger så ikke vær beskjeden! Bruker din utvalgte leksehjelper lengre tid på å svare kan du alltids kontakte noen andre. Her er en intromelding vi anbefaler:
-
+    
+  </div>
+  <div class="column">
+    <h2>Religion og livssyn</h2>
+    <p><a href="/Krle/">KRLE (ungdomsskole)</a></p>
+    <p><a href="/Religion-og-livssyn/">Religion og livssyn (VGS)</a></p>
+    <p></p>
+  </div>
 </div>
-
-<br />
-<br />
- <i>Hei! Jeg lurer på om du har tid og ønske for å hjelpe meg i ...fag i løpet av ... dager/timer?</i> 
-<br />
-<br />
-<br />
-<br />
-
-<a href="/Fagoversikt/" class="button">Fagoversikt</a> 
-<a href="https://www.bliflink.no" class="button">BliFlink.no</a> 
-<a href="/BliFrivillig/" class="button">Bli Frivillig</a>
-<a href="/retningslinjer/" class="button">Rettningslinjer</a> 
-<a href="https://www.facebook.com/groups/bliflink.no" class="button">Facebook</a> 
 
 </body>
 
